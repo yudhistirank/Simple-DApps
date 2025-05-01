@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Dapps</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.6.2/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+  <h2>Simple DApps</h2>
+  <p>Connect wallet & request testnet token from Plume Faucet</p>
+  <button onclick="connectWallet()">Connect Wallet</button>
+  <button onclick="disconnectWallet()">Disconnect</button>
+  <button onclick="requestFaucet()">Request Faucet</button>
+
+  <div id="walletAddress"></div>
+  <div id="status"></div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
